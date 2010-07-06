@@ -1,26 +1,5 @@
 #!/usr/bin/env python
 
-'''
-Takes song and artist names in the format:
-    
-Right Now (Na Na Na) - Akon
-Beautiful Ft. Colby O'Donis... - Akon
-I'm So Paid Ft. Lil' Wayne ... - Akon
-Smooth Criminal - Alien Ant Farm
-Nothin' On You (Feat. Bruno... - B.o.B.
-Lights Go Down - Basement Jaxx
-Public Enemy vs Benny Benas... - Benny Benassi
-Money To Blow ft. Drake and... - Birdman
-Forever (Main Version) - Chris Brown
-Strangers In The Wind - Cut Copy
-My Game (JS16 remix) - Darude
-Memories (Featuring Kid Cudi) - David Guetta
-United State of Pop 2009 - DJ Earworm
-
-You can get these from Grooveshark by exporting a playlist as a widget and
-copy + pasting.
-'''
-
 import os
 import re
 import urllib2
