@@ -1,0 +1,18 @@
+music_detective is a script that takes a number of music files in a directory
+and fills in its info and album art. In order to find the album and album art,
+music_detective needs some music info to start out with. Music info is inputted
+in this format:
+
+Lights Go Down - Basement Jaxx
+My Game (JS16 remix) - Darude
+The Way I Are (feat. Keri H... - Timbaland
+
+SPLITTING FLAC FILES:
+
+flac -d audio.flac
+
+This creates an audio.wav.
+
+lame -h audio.wav audio.mp3
+
+Then split the resulting mp3 with an mp3 splitter such as mp3DirectCut.
